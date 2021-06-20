@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Gallery</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="icon" href="./gallery-icon.svg" />
+</head>
+
+<body class="p-2">
+    <br/>
+    <div class="container-fluid">
+        <h3>
+            Gallery:
+        </h3>
+        <div class="row">
+            <div class="col-xs-11 col-sm-11 col-lg-5" id="gallery">
+                <div id="galleryItems">
+                    <img src="download.jpeg" />
+                    <img src="images.jpeg" />
+                    <img src="tulip-bulbs-500x500.jpg" />
+                    <img src="mothers-day-flower-bouquet-1588610191.jpg" />
+                </div>
+            </div>	
+
+            <div class="col-1"></div>
+
+            <div class="col-xs-11 col-sm-11 col-lg-5" id="dropbox">
+                <h3>
+                    Upload more images to the gallery:
+                </h3>
+                <div>
+                    <div class="form-group files color">
+                        <input type="file" class="form-control" id="uploadedImage" accept="image/*">
+                    </div>
+                    <button class="btn-primary" id="addImage">Add to gallery</button>
+                </div>
+            </div>	
+            
+        </div>
+    </div>
+
+
+  <script src="./index.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</body>
+
+</html>
